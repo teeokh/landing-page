@@ -13,11 +13,6 @@ body {
     align-items: center;
 }
 
-.content-container {
-    max-width: 1000px;
-    width: 100%;
-}
-
 /* HEADER */
 
 .header, .content-one, .footer {
@@ -27,8 +22,7 @@ body {
 }
 
 .header {
-    padding: 10px;
-    padding-bottom: 80px;
+    padding: 10px 150px 80px 150px;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,8 +51,7 @@ body {
 .content-one {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    padding-bottom: 80px;
+    padding: 10px 150px 80px 150px;
 }
 
 .title-stuff {
@@ -168,10 +161,12 @@ a {
     background-color: #3882F6;
     border-radius: 8px;
     margin: 80px 0;
-    padding: 50px 90px;
+    margin: 80px 150px 80px 150px;
+    padding: 40px;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .call-to-action {
