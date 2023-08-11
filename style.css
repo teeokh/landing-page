@@ -17,6 +17,8 @@ body {
     max-width: 1000px;
 }
 
+/* HEADER */
+
 .header, .content-one, .footer {
     display: flex;
     background-color: #1F2937;
@@ -44,9 +46,11 @@ body {
 
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
+
+/* CONTENT ONE */
 
 .content-one {
     display: flex;
@@ -71,10 +75,6 @@ img.main-image {
     max-width: 400px;
 }
 
-.highlight img {
-    width: 200px;
-    height: auto;
-}
 
 .content-one button {
     background-color: #3882F6;
@@ -85,7 +85,6 @@ img.main-image {
     width: 100px;
 }
 
-
 ul {
     list-style: none;
 }
@@ -93,4 +92,43 @@ ul {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+
+/* CONTENT TWO */
+
+.highlight img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-two {
+    font-size: 36px;;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 20px;
+}
+
+.highlights {
+    display: flex;
+    align-items: space-between;
+    gap: 20px;
+    padding: 40px;
+}
+
+.highlight {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text {
+    width: 200px;
 }
