@@ -129,6 +129,34 @@ a {
     text-align: center;
 }
 
-.text {
+.highlight .text {
     width: 200px;
 }
+
+
+/* CONTENT THREE */
+
+.content-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+}
+
+.content-three .quote {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 700px;
+}
+
+.content-three .quoter {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+
